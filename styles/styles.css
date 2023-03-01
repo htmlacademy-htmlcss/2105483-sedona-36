@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2");
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color:#000000;
+  text-decoration: none;
+  text-transform: uppercase;
+
+
+
+
+}
+
+.page-header {
+  color: inherit;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  width: 507px;
+  height: 64px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.main-index {
+  background-image: url("../images/гора\ где\ WELCOME.jpg")
+  background-size: cover;
+
+}
+
+.advantages-list {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+
+.advantages-preview {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+
+
+
+.advantages-title-light {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+
+
+.advantages-blue {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #82B3D3;
+width: 400px;
+height: 385px;
+color: #FFFFFF;
+
+}
+
+
+
+
+.advantages-blue{
+ font-family: 'PT Sans';
+ font-style: normal;
+ font-weight: 700;
+ align-items: center;
+ font-size: 24px;
+ line-height: 28px;
+ background: #82B3D3;
+ color: #FFFFFF;
+}
+
+
+
+
+.subscribe {
+  background-color: #82B3D3;
+  background-image: url("../images/подписка\ .jpg");
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.services {
+  text-transform: uppercase;
+}
+
+.services-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+
+.services-list {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+
+.htmlacademy-link {
+  font-size: 14px;
+  color: #000000;
+}
+
+
+.footer-col-address {
+  font-style: normal;
+}
+
+.footer-contacts-address-phone {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+.filter-form-group {
+  background-color: #82B3D3;
+  background-image: url("../images/подписка\ .jpg");
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+
+.breadcrumbs {
+  color: #242424;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+}
+
+
+.btn-brown {
+  background-color: #756157; ;
+
+}
+
+
+.btn-blue {
+  background-color: #82B3D3
+
+}

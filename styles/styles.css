@@ -21,44 +21,47 @@ body {
 
 }
 
-.button {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  background-color:#000000;
-  text-decoration: none;
-  text-transform: uppercase;
-
-
-
-
-}
 
 .page-header {
   color: inherit;
   background-color: #ffffff;
 }
 
-.navigation-link {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
+.nav-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
   color: #000000;
-  flex: none;
-  width: 507px;
-  height: 64px;
+  font-weight: 700;
+  background-color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
 
+
+
+}
+.sup {
+  vertical-align: super;
+  font-size: 12px;
+
+
 }
 
-.main-index {
-  background-image: url("../images/гора\ где\ WELCOME.jpg")
-  background-size: cover;
+.nav-link-3 {
+  background-color: #756157;
+  width: 160px;
+  height: 36px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+
+}
+.welcome-img-wrapper {
+  text-align: center;
+  background-color: cover;
+  background-image: url("../images/гора\ где\ WELCOME.jpg");
+
 
 }
 
@@ -132,7 +135,11 @@ color: #FFFFFF;
  color: #FFFFFF;
 }
 
-
+.button-search{
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 
 .subscribe {
@@ -160,37 +167,35 @@ color: #FFFFFF;
 }
 
 
-.htmlacademy-link {
+.address {
   font-size: 14px;
-  color: #000000;
+  background-color: #000000;
+  position: absolute;
 }
 
 
-.footer-col-address {
-  font-style: normal;
-}
-
-.footer-contacts-address-phone {
+.footer-phone {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 28px;
-  font-weight: 700;
-  text-decoration: underline;
-  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+
+
+
 }
 
 
-.filter-form-group {
-  background-color: #82B3D3;
-  background-image: url("../images/подписка\ .jpg");
-  background-size: cover;
+.wrapper{
   color: #FFFFFF;
+  background-size: cover;
+  background-image: url("../images/смытая\ картина\ в\ каталоге\ \(1\).jpg")
+
 }
 
 
-.breadcrumbs {
-  color: #242424;
-}
+
 
 .breadcrumbs-link {
   color: inherit;
@@ -198,12 +203,46 @@ color: #FFFFFF;
 
 
 .btn-brown {
-  background-color: #756157; ;
-
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 
 .btn-blue {
-  background-color: #82B3D3
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#ffffff;
 
+
+
+}
+
+.subscribe-catalog {
+  color: #000000;
+  text-align: center;
+
+}
+.slider-pagination-item {
+  color: #82B3D3;
+
+}
+
+.slider-pagination{
+  color: #82B3D3;
+
+
+}
+
+.button-newsletter-button{
+  background-color: #82B3D3;
+  color: #ffffff;
 }

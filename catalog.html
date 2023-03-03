@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -32,17 +33,20 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span class="visually-hidden"> Избранное </span>
+              <span class="sup"></span>
               <img class="nav-item-img" alt="Избранное" src="images/сердце.svg" width="18" height="17">
+              <img class="sup" alt="цифра 12 над серцем" src="images/Цифра 12 над сердцем (1).svg" width="20" height="20">
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Хочу сюда! </a>
+            <a class="nav-link-3" href="#"> Хочу сюда! </a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="main-inner">
+      <div class="wrapper">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
@@ -107,12 +111,16 @@
             <button class="btn btn-transparent" type="submit">Сбросить</button>
           </fieldset>
         </form>
-      </div>
+      </div> </div>
 
       <div class="hotel-sort">
         <ul class="hotel-sort-list">
           <li class="hotel-item">
-            <div class="hotel-sort-title">Найдено 38:</div>
+            <div class="hotel-sort-title"> <b>Найдено 38:</b>
+              <img src="images/мини 6 кубиков.svg" alt="6 точек" width="14" height="14">
+              <img src="images/прямоугольник и линия.svg" alt="прямоугольники и линия" width="14" height="14">
+              <img src="images/неск. прямоугол.svg" alt="неск.прямоугл" width="14" height="14">
+           </div>
           </li>
         </ul>
       </div>
@@ -157,7 +165,7 @@
 
           <div class="hotel-block">
             <span> От 5000 p. </span>
-            <a href="#" class="btn btn-green"> В Избранное </a>
+            <a href="#" class="btn btn-blue"> В Избранное </a>
           </div>
         </div>
 
@@ -219,8 +227,55 @@
             <div class="hotel-rate-text">Рейтинг 5,0</div>
           </div>
         </div>
+        <ul class="slider-pagination">
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button slider-pagination-button-current">
+              <span class="visually-hidden">1 </span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button">
+              <span class="visually-hidden">2 </span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button">
+              <span class="visually-hidden">3 </span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button">
+              <span class="visually-hidden">4 </span>
+            </button>
+          </li>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden"> ... </span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden"> 10 </span>
+          </button>
+        </li>
+      </ul>
       </div>
     </main>
+
+
+    <section class="subscribe-catalog">
+      <h2 class="advantages-title "> Подпишитесь на рассылку</h2>
+      <p class="advantages-description"> Только полезная информация и никакого спама,
+        честное бойскаутское!</p>
+
+      <label for="newsletter-email"> </label>
+      <input class="field" placeholder="Ваш e-mail" type="email">
+      <button class="button-newsletter-button" tupe="submit">
+        <span class="visually-hidden"> Подписаться </span>
+      </button>
+
+    </section>
 
     <footer class="footer">
       <section class="footer-social">
@@ -252,8 +307,10 @@
         <a class="footer-phone" href="+78128121212"> +7 (812) 812-12-12</a>
       </section>
 
-      <section class="copyright">
-        <a class="copyright-link" href="https://htmlacademy.ry/"></a>
+      <section class="adress">
+        <a class="htmlacademy-link" href="https://htmlacademy.ry/">
+        <img class="logo-htmlacademy" alt="Логотип htmlacademy" src="images/logo_htmlacademy (1).svg" width="115" height="33">
+        </a>
       </section>
     </footer>
   </body>

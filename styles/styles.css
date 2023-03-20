@@ -100,12 +100,13 @@ body {
 .main-container {
   flex-grow: 1;
   max-width: 1200px;
+
 }
 
 
 
 .welcome-content-wrapper{
-
+  width: 1200px;
   height: 485px;
   text-align: center;
   margin: 0 auto;
@@ -114,7 +115,7 @@ body {
   top: 0%;
   bottom: 36.77%;
   background-image: url("../images/гора\ где\ WELCOME.jpg");
-  width: 1200px;
+
 
 }
 
@@ -124,10 +125,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0px 40px;
+  padding: 0px;
   position: relative;
-  width: 1200px;
-  height: 3557.86px;
   background: #F2F2F2;
   max-width: 1200px;
 }
@@ -370,7 +369,7 @@ body {
 }
 
 .main-index{
- padding-top: 40px;
+
 }
 
 .inner-header-title{

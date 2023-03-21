@@ -51,7 +51,7 @@ body {
   max-width: 1200px;
   margin: 0;
   padding: 0;
-
+  list-style: none;
 
 }
 
@@ -73,6 +73,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   max-width: 1200px;
+
 }
 
 
@@ -99,12 +100,13 @@ body {
 .main-container {
   flex-grow: 1;
   max-width: 1200px;
+
 }
 
 
 
 .welcome-content-wrapper{
-
+  width: 1200px;
   height: 485px;
   text-align: center;
   margin: 0 auto;
@@ -113,7 +115,7 @@ body {
   top: 0%;
   bottom: 36.77%;
   background-image: url("../images/гора\ где\ WELCOME.jpg");
-  width: 1200px;
+
 
 }
 
@@ -123,10 +125,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0px 40px;
+  padding: 0px;
   position: relative;
-  width: 1200px;
-  height: 3557.86px;
   background: #F2F2F2;
   max-width: 1200px;
 }
@@ -362,10 +362,14 @@ body {
 
 
 
+.container{
+ max-width: 1200px;
+ margin: auto;
 
+}
 
 .main-index{
- padding-top: 40px;
+
 }
 
 .inner-header-title{
@@ -377,7 +381,7 @@ body {
 }
 
 .inner-header{
-
+  max-width: 1200px;
   width: 1200px;
   height: 500px;
   left: 0px;
@@ -571,6 +575,7 @@ label{
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  list-style: none;
 }
 
 
@@ -592,20 +597,17 @@ label{
   align-items: center;
   padding: 0px;
   gap: 8px;
-
+  list-style: none;
 
 }
 
 .slider-pagination{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 400px;
-  height: 60px;
-
+  min-height: auto;
 }
 .slider-pagination-item {
   color: #82B3D3;
@@ -634,3 +636,15 @@ label{
 }
 
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
